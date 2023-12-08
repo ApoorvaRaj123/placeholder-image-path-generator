@@ -30,3 +30,24 @@ table{
 }
 
 
+        .style1 {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 5rem;
+            height: 5rem;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .style1::-webkit-color-swatch {
+            border-radius: .5rem;
+            border: none;
+        }
+
+        .style1::-moz-color-swatch {
+            border-radius: .5rem;
+            border: none;
+        }
