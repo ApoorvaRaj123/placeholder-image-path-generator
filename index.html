@@ -1,60 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PassX - Your Personal passwork Manager</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
-
 <body>
-    <nav>
-        <div class="logo">PassX</div>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+    <h1>Placeholder Image Path Generator using</h1>
+    <div>
+        <label for="selectImage">Image size:</label>
+        <select name="" id="selectImage">
+            <option value="150x50">Small (150x50)</option>
+            <option value="200x200">Medium (200x200)</option>
+            <option value="300x150">Medium (300x150)</option>
+            <option value="400x400">Large (400x400)</option>
+            <option value="650x350">Large (650x350)</option>
+            <option value="800x600">X-Large (800x600)</option>
+            <option value="1920x1080">Full HD (1920x1080)</option>
+        </select>
+    </div>
+    
+    <div class="parent">
+        <label for="nameOnImage">Text on image: </label>
+        <input type="text" name="" id="nameOnImage">
+    </div>
+
+    <div class="parent">
+        <label for="backgroundColor">Color of Background: </label>
+        <input type="color" value="#98bc62" class="style1" name="" id="backgroundColor">
+    </div>
+
+
+    <div class="parent">
+        <label for="textColor">Color of Text</label>
+        <input type="color" value="#2C5F2D" class="style1" name="" id="textColor">
+    </div>
+
 
     <div class="container">
-        <h1>Password Manager</h1>
-        <p>We are Thrilled to have you here.Your digital life contains a myriad of passswords,and we know it can be
-            challenging sometimes to remember each one of them</p>
-        <h2>Your Passwords</h2>
-        <table>
-            <tr>
-                <th>Website2</th>
-                <th>Username</th>
-                <th>Password</th>
-                <th>Delete</th>
-            </tr>
-            <tr>
-                <td>Apoorva</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <td>Apoorva</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <td>Apoorva</td>
-                <td>22</td>
-            </tr>
-        </table>
+        <img src="" alt="">
+        <br>
+        <label for="urlPath"></label>
+        <textarea name="" id="urlPath" cols="50" rows="2">Link is HERE.</textarea>
     </div>
-    <h2>Add a Password</h2>
-    
-    <form action="/submit" method="post">
-
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-    </form>
 
 
+    <script src="script.js"></script>
 </body>
-
 </html>
